@@ -1,12 +1,15 @@
-# AI Studio Android Release Gate MCP
+# AI Studio Android Release Gate
 
-Paid remote MCP for AI Studio Android release gate MCP, structured receipts, audit logs, and reviewer-ready evidence.
+AI Studio Android Release Gate is a hosted remote MCP for AI Studio Android release gate MCP.
 
 Website: https://aistudioandroidreleasegate.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: AI Studio Android release gate MCP
+Type: MCP
+Default plan: team
 MCP endpoint: https://aistudioandroidreleasegate.clauxel.com/mcp
 Server card: https://aistudioandroidreleasegate.clauxel.com/server-card.json
-Docs: https://github.com/clauxel/ai-studio-android-release-gate-mcp
-
-Use case: AI Studio Android release gate MCP with structured receipts.
-Authentication: Bearer token required for production use.
+Registry name: com.clauxel.aistudioandroidreleasegate/aistudioandroidreleasegate-mcp
 Tools: check_android_release_gate, explain_permission_blocker, issue_release_receipt, summarize_device_matrix, export_release_log
+
+Public boundary: docs-only repository; no production source code or secrets.
